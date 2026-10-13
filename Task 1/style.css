@@ -28,8 +28,13 @@ padding: 10px 20px;
 }
 a {
     text-decoration: none;
-    color: rgb(63, 63, 247);
+    color: black;
    
+}
+a:hover{
+    color: rgb(63, 63, 247);
+    text-decoration: underline double rgb(63, 63, 247);
+    
 }
 .fast-name{
  
@@ -48,8 +53,8 @@ a {
     border-radius: 10px;
     margin: 20px;
    display: flex;
-   justify-content: space-between;
-   padding: 0px 20px ;
+   justify-content: space-around;
+   padding: 10px 20px ;
    align-items: center;
    background: linear-gradient(
         135deg,
@@ -57,11 +62,7 @@ a {
         #f5f3ff
     );
 }
-.about-image{
-    width: 300px;
-    height: 300px;
 
-}
 .my-name{
     color: rgb(63, 63, 247);
     font-weight: 600;
@@ -73,6 +74,12 @@ a {
     font-size: 16px;
     line-height: 1.5;
 
+}
+.about-image{
+    border-radius: 100%;
+    object-fit: cover;
+   width: 200px;
+   height: 200px;
 }
 .hi{
    
@@ -184,7 +191,7 @@ th{
     color: rgb(63, 63, 247);
 }
 
-skills-cheackbox {
+.skills-cheackbox {
     display: flex;
     flex-wrap: wrap;
     gap: 12px;
@@ -284,12 +291,10 @@ margin-top: 10px;
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.06);
 }
 
-.contac-title {
-    color: #111827;
-
-    font-size: 30px;
-
-    margin-bottom: 25px;
+.contact-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(63, 63, 247);
 }
 
 #contact p {
